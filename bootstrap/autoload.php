@@ -15,5 +15,6 @@ define('LARAVEL_START', microtime(true));
 */
 
 /*require __DIR__.'/../vendor/autoload.php .:/usr/share/php';*/
-require '/home/pmorantes/laravel/vendor/autoload.php';
+include_path='.:/opt/rh/rh-php70/root/usr/share/pear:/opt/rh/rh-php70/root/usr/share/php'
+/*require '/home/pmorantes/laravel/vendor/autoload.php';
 
